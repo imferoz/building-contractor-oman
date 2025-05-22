@@ -1,57 +1,258 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <!-- Previous meta tags and styles remain the same -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0"/>
+  <title>Building Contractors in Oman | Muscat, Sohar & Salalah Construction | AL WEJHA GROUP</title>
+  <meta name="description" content="Licensed Building Contractors in Oman - Commercial & Residential Construction Services in Muscat, Sohar, Salalah. Oman Ministry of Housing Approved Contractors">
+  <meta name="keywords" content="building contractors Oman, construction companies Muscat, commercial builders Sohar, residential construction Salalah, Oman ministry approved contractors">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://building-contractors-oman.alwejhagroup.com/"/>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
   <style>
-    /* Updated CSS */
-    header p {
-      color: rgba(255,255,255,0.9) !important;
-      font-size: 1.4rem;
-      text-shadow: 0 1px 3px rgba(0,0,0,0.3);
-      margin-top: 1rem;
+    :root {
+      --primary-blue: #0b74de;
+      --accent-orange: #ff6b35;
+      --dark-text: #2d3748;
+      --light-bg: #f8fafc;
+    }
+    
+    body { 
+      font-family: 'Open Sans', sans-serif;
+      background-color: var(--light-bg);
+      color: var(--dark-text);
+      line-height: 1.7;
+      margin: 0;
     }
 
-    /* Updated contact section */
-    .contact-options {
+    header {
+      background: linear-gradient(rgba(11, 116, 222, 0.9), rgba(11, 116, 222, 0.9)),
+                  url('/building-contractors-oman.webp') no-repeat center/cover;
+      min-height: 70vh;
       display: flex;
-      gap: 1rem;
+      align-items: center;
       justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    header h1 {
+      color: #fff;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 2.8rem;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.25);
+      margin-bottom: 1rem;
+    }
+
+    /* Added for location text visibility */
+    header p {
+      color: #ffffff !important;
+      font-size: 1.4rem;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    }
+
+    .nav-container {
+      background: var(--primary-blue);
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
       flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background: rgba(255,255,255,0.15);
+    }
+
+    .content-section {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 2rem 1rem;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
       margin-top: 2rem;
     }
 
-    .email-cta {
-      background: #f4f4f4;
-      color: var(--primary-blue) !important;
-      border: 2px solid var(--primary-blue);
+    .service-card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+      border-top: 4px solid var(--primary-blue);
     }
 
-    .email-cta:hover {
+    .region-badge {
+      display: inline-block;
+      background: rgba(11, 116, 222, 0.1);
+      color: var(--primary-blue);
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      margin: 0.3rem;
+    }
+
+    .cta-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.8rem 1.5rem;
       background: var(--primary-blue);
-      color: white !important;
+      color: #fff;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: transform 0.2s ease;
+    }
+
+    /* Added email button style */
+    .email-cta {
+      background: #2d9596;
+    }
+    .email-cta:hover {
+      background: #247b7d;
+    }
+
+    footer {
+      background: var(--primary-blue);
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 4rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 { font-size: 2rem; }
+      .service-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/Organization">
   <header>
     <h1>Building Construction Experts in Oman</h1>
-    <p style="color: rgba(255,255,255,0.9); font-size: 1.4rem;">Serving Muscat, Sohar, Salalah & Beyond</p>
+    <p>Serving Muscat, Sohar, Salalah & Beyond</p>
   </header>
 
-  <!-- ... rest of the navigation remains same ... -->
+  <div class="nav-container">
+    <nav>
+      <a href="https://www.alwejhagroup.com/">Home</a>
+      <a href="https://www.alwejhagroup.com/area-of-expertise">Expertise</a>
+      <a href="https://www.alwejhagroup.com/our-services">Services</a>
+      <a href="https://www.alwejhagroup.com/our-clients">Clients</a>
+      <a href="https://www.alwejhagroup.com/contact">Contact</a>
+    </nav>
+  </div>
 
-  <section id="contact" style="text-align:center; margin-top:4rem;">
-    <h2>Start Your Construction Project</h2>
-    <div class="contact-options">
-      <a href="https://wa.me/96879271055" class="cta-button" target="_blank">
-        <i class="fab fa-whatsapp"></i> WhatsApp
-      </a>
-      <a href="mailto:business@alwejhagroup.com" class="cta-button email-cta">
-        <i class="fas fa-envelope"></i> Email Us
-      </a>
+  <main class="content-section">
+    <section id="services">
+      <h2>Oman-Wide Construction Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <h3>Commercial Construction</h3>
+          <div class="region-badges">
+            <span class="region-badge">Muscat</span>
+            <span class="region-badge">Sohar</span>
+            <span class="region-badge">Salalah</span>
+          </div>
+          <ul>
+            <li>Office complex construction</li>
+            <li>Retail space development</li>
+            <li>Hotel & hospitality projects</li>
+            <li>Industrial facility building</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <h3>Residential Projects</h3>
+          <div class="region-badges">
+            <span class="region-badge">Al Khuwair</span>
+            <span class="region-badge">Barka</span>
+            <span class="region-badge">Nizwa</span>
+          </div>
+          <ul>
+            <li>Villa construction</li>
+            <li>Apartment complexes</li>
+            <li>Township development</li>
+            <li>Renovation services</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <h3>Specialized Services</h3>
+          <ul>
+            <li>MOH-approved designs</li>
+            <li>Construction permit assistance</li>
+            <li>Quality compliance audits</li>
+            <li>Project management</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="text-align:center; margin-top:4rem;">
+      <h2>Start Your Construction Project</h2>
+      <div style="margin-top:2rem;">
+        <a href="https://wa.me/96879271055" class="cta-button" target="_blank">
+          <i class="fab fa-whatsapp"></i> WhatsApp Consultation
+        </a>
+        <a href="mailto:business@alwejhagroup.com" class="cta-button email-cta">
+          <i class="fas fa-envelope"></i> Email Us
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 AL WEJHA GROUP - Licensed Oman Building Contractors</p>
+    <div style="margin-top:1rem;">
+      <a href="https://building-contractors-oman.alwejhagroup.com/sitemap.xml" style="color:#fff;">Sitemap</a> | 
+      <a href="https://www.alwejhagroup.com/privacy-policy" style="color:#fff;">Privacy Policy</a> | 
+      <a href="https://www.alwejhagroup.com/terms-of-service" style="color:#fff;">Terms of Service</a>
     </div>
-  </section>
+  </footer>
 
-  <!-- ... footer remains same ... -->
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "AL WEJHA GROUP Building Contractors",
+      "url": "https://building-contractors-oman.alwejhagroup.com/",
+      "logo": "https://building-contractors-oman.alwejhagroup.com/building-contractors-oman.webp",
+      "description": "Licensed building contractors providing construction services across Oman including Muscat, Sohar and Salalah",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Muscat",
+        "addressRegion": "Oman",
+        "postalCode": "112",
+        "streetAddress": "Al Khuwair South"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+96879271055",
+        "contactType": "customer service"
+      }
+    }
+  </script>
 </body>
 </html>
